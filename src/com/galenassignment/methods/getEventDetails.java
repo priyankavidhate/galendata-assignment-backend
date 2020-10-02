@@ -89,7 +89,7 @@ public class getEventDetails {
 		ArrayList<String> locations = new ArrayList<String>();
 		JSONObject locationObj = new JSONObject();
 		try {
-			String query = "SELECT location from eventinfo";
+			String query = "SELECT DISTINCT location from eventinfo";
 			Connection con = DatabaseConnection.getConnection();
 			PreparedStatement ps = con.prepareStatement(query);
 			ResultSet rs = ps.executeQuery();
