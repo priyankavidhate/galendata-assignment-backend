@@ -26,4 +26,4 @@ in the database.
 ● Now the tomcat server will start running on port 8080.
 
 ● The rest URL for to get event details will be
-http://localhost:8080/GalenAssignment/rest/events?limit=10;offset=0
+http://localhost:8080/GalenAssignment/rest/events?limit=10&offset=0
